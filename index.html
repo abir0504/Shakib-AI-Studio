@@ -1,0 +1,1413 @@
+<!doctype html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary SEO & Title -->
+    <title>SHAKIB AI STUDIO | AI ভিডিও প্রোডাকশন ও ক্রিয়েটিভ স্টুডিও</title>
+    <meta name="description" content="SHAKIB AI STUDIO AI-powered ভিডিও, ব্র্যান্ড প্রমোশন, অ্যানিমেশন, বিজ্ঞাপন, মিউজিক এবং ক্রিয়েটিভ ভিজ্যুয়াল কনটেন্ট তৈরি করে।" />
+    <meta name="keywords" content="SHAKIB AI STUDIO, Sakhawat Hosain Shakib, AI Video Production, 3D Animation, Prompt Engineering, Bangladesh AI Studio, Commercial Ads" />
+    <meta name="author" content="SAKHAWAT HOSAIN SHAKIB" />
+    <link rel="canonical" href="https://shakibaistudio.com" />
+    <link rel="alternate" hreflang="bn" href="https://shakibaistudio.com/bn" />
+    <link rel="alternate" hreflang="en" href="https://shakibaistudio.com/en" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://shakibaistudio.com" />
+    <meta property="og:title" content="SHAKIB AI STUDIO | AI ভিডিও প্রোডাকশন ও ক্রিয়েটিভ স্টুডিও" />
+    <meta property="og:description" content="SHAKIB AI STUDIO AI-powered ভিডিও, ব্র্যান্ড প্রমোশন, অ্যানিমেশন, বিজ্ঞাপন, মিউজিক এবং ক্রিয়েটিভ ভিজ্যুয়াল কনটেন্ট তৈরি করে।" />
+    <meta property="og:site_name" content="SHAKIB AI STUDIO" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SHAKIB AI STUDIO | AI Video Production & Creative Studio" />
+    <meta name="twitter:description" content="SHAKIB AI STUDIO creates professional AI-powered videos, brand promotions, animations, advertisements, music and creative visual content." />
+
+    <!-- Favicon SVG Data URI -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%2308090d%22/><circle cx=%2250%22 cy=%2250%22 r=%2228%22 stroke=%22%2338bdf8%22 stroke-width=%226%22 fill=%22none%22/><circle cx=%2250%22 cy=%2250%22 r=%2212%22 fill=%22%23a855f7%22/></svg>" type="image/svg+xml" />
+
+    <!-- Premium Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Noto+Sans+Bengali:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Pure CSS3 Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "SHAKIB AI STUDIO",
+      "founder": {
+        "@type": "Person",
+        "name": "SAKHAWAT HOSAIN SHAKIB",
+        "jobTitle": "AI Video Creator & Content Producer"
+      },
+      "description": "Professional AI-powered video production, animations, script writing, music production and creative content studio.",
+      "url": "https://shakibaistudio.com",
+      "knowsLanguage": ["Bengali", "English"],
+      "areaServed": "Global"
+    }
+    </script>
+  </head>
+  <body data-lang="bn">
+
+    <!-- Ambient Dynamic Background Canvas -->
+    <canvas id="ambient-canvas"></canvas>
+    <div class="ambient-glow ambient-glow-1"></div>
+    <div class="ambient-glow ambient-glow-2"></div>
+
+    <!-- Cinematic Intro Loader -->
+    <div id="loading-screen">
+      <div class="loader-brand">
+        <div class="loader-logo-symbol">
+          <div class="loader-ring"></div>
+          <div class="loader-core"></div>
+        </div>
+        <div class="loader-title">SHAKIB AI STUDIO</div>
+        <div class="loader-bar-wrap">
+          <div class="loader-bar-fill"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sticky Glassmorphic Header -->
+    <header class="site-header" id="site-header">
+      <div class="container nav-container">
+        <!-- Logo -->
+        <a href="#hero" class="brand-logo" id="main-logo" aria-label="SHAKIB AI STUDIO Home">
+          <div class="logo-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="23 7 16 12 23 17 23 7"></polygon>
+              <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">SHAKIB AI STUDIO</span>
+            <span class="brand-sub">CREATIVE PRODUCTION</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="desktop-nav" aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li><a href="#hero" class="nav-link active" data-i18n="navHome">হোম</a></li>
+            <li><a href="#about" class="nav-link" data-i18n="navAbout">আমার সম্পর্কে</a></li>
+            <li><a href="#services" class="nav-link" data-i18n="navServices">সার্ভিস</a></li>
+            <li><a href="#portfolio" class="nav-link" data-i18n="navPortfolio">পোর্টফোলিও</a></li>
+            <li><a href="#why" class="nav-link" data-i18n="navWhy">কেন আমি</a></li>
+            <li><a href="#contact" class="nav-link" data-i18n="navContact">যোগাযোগ</a></li>
+          </ul>
+        </nav>
+
+        <!-- Actions: Bilingual Switcher & CTA -->
+        <div class="nav-actions">
+          <!-- Vanilla JS Language Switcher -->
+          <div class="lang-switcher" id="lang-switcher-nav" role="group" aria-label="Language Selector">
+            <button type="button" class="lang-btn active" data-lang-choice="bn" id="lang-btn-bn">বাংলা</button>
+            <button type="button" class="lang-btn" data-lang-choice="en" id="lang-btn-en">EN</button>
+          </div>
+
+          <a href="#contact" class="btn btn-primary nav-cta-btn" id="nav-cta-btn" data-i18n="navCta">প্রজেক্ট শুরু করুন</a>
+
+          <!-- Mobile Hamburger Menu Button -->
+          <button type="button" class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Slide-Out Drawer Navigation -->
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer" aria-hidden="true">
+      <ul class="mobile-nav-links">
+        <li><a href="#hero" class="mobile-nav-link" data-i18n="navHome">হোম</a></li>
+        <li><a href="#about" class="mobile-nav-link" data-i18n="navAbout">আমার সম্পর্কে</a></li>
+        <li><a href="#services" class="mobile-nav-link" data-i18n="navServices">সার্ভিস</a></li>
+        <li><a href="#portfolio" class="mobile-nav-link" data-i18n="navPortfolio">পোর্টফোলিও</a></li>
+        <li><a href="#why" class="mobile-nav-link" data-i18n="navWhy">কেন আমি</a></li>
+        <li><a href="#contact" class="mobile-nav-link" data-i18n="navContact">যোগাযোগ</a></li>
+      </ul>
+      <div class="mobile-nav-actions">
+        <a href="#contact" class="btn btn-primary" data-i18n="navCta">প্রজেক্ট শুরু করুন</a>
+        <a href="[ADD WHATSAPP LINK HERE]" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" data-i18n="btnWhatsApp">হোয়াটসঅ্যাপে কথা বলুন</a>
+      </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main id="main-content">
+
+      <!-- ===================================================================
+           HERO SECTION
+           =================================================================== -->
+      <section class="section hero-section" id="hero">
+        <div class="container hero-content">
+          <!-- Tagline Pill -->
+          <div class="hero-tagline-badge" id="hero-tagline-badge">
+            <span class="badge-dot"></span>
+            <span data-i18n="heroTagline">আপনার আইডিয়া, AI-এর শক্তিতে ভিডিও</span>
+          </div>
+
+          <!-- Main Headline -->
+          <h1 class="hero-headline" id="hero-headline" data-i18n="heroHeadline">
+            AI দিয়ে তৈরি প্রফেশনাল ভিডিও, ব্র্যান্ড আর অ্যানিমেশন
+          </h1>
+
+          <!-- Studio Description -->
+          <p class="hero-description" id="hero-description" data-i18n="heroDescription">
+            “ব্র্যান্ড প্রমোশন থেকে হাসপাতাল/ডাক্তার বিজ্ঞাপন, অ্যানিমেশন থেকে মিউজিক — SAKHAWAT HOSAIN SHAKIB-এর হাতে তৈরি হয় আপনার আইডিয়ার সম্পূর্ণ ভিজ্যুয়াল রূপ।”
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-buttons">
+            <a href="[ADD WHATSAPP LINK HERE]" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" id="hero-whatsapp-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67Z"/>
+              </svg>
+              <span data-i18n="btnWhatsApp">হোয়াটসঅ্যাপে কথা বলুন</span>
+            </a>
+
+            <a href="#contact" class="btn btn-primary" id="hero-cta-btn">
+              <span data-i18n="btnStartProject">প্রজেক্ট শুরু করুন</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Hero Image Visual Placeholder Frame -->
+          <div class="hero-showcase-wrap" id="hero-media-wrap">
+            <div class="media-placeholder-frame ratio-16-9" id="hero-placeholder-frame">
+              <div class="placeholder-grid-bg"></div>
+              <div class="reticle-corner reticle-tl"></div>
+              <div class="reticle-corner reticle-tr"></div>
+              <div class="reticle-corner reticle-bl"></div>
+              <div class="reticle-corner reticle-br"></div>
+
+              <div class="placeholder-body">
+                <div class="placeholder-icon-wrap">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                    <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                  </svg>
+                </div>
+                <div class="placeholder-label" data-i18n="heroPlaceholderLabel">[ADD IMAGE HERE]</div>
+                <div class="placeholder-purpose" data-i18n="heroPlaceholderPurpose">Purpose: Hero Visual</div>
+                <div class="placeholder-specs">
+                  <span class="spec-chip highlight">1920×1080px</span>
+                  <span class="spec-chip">16:9 Aspect Ratio</span>
+                  <span class="spec-chip">WebP / AVIF</span>
+                  <span class="spec-chip">Landscape</span>
+                  <span class="spec-chip">Cinematic Futuristic AI Studio</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           ABOUT SECTION
+           =================================================================== -->
+      <section class="section about-section" id="about">
+        <div class="container">
+          <div class="about-grid">
+            <!-- Profile Photo Placeholder Column -->
+            <div class="about-image-column">
+              <div class="media-placeholder-frame ratio-5-6 about-image-frame" id="about-profile-frame">
+                <div class="placeholder-grid-bg"></div>
+                <div class="reticle-corner reticle-tl"></div>
+                <div class="reticle-corner reticle-tr"></div>
+                <div class="reticle-corner reticle-bl"></div>
+                <div class="reticle-corner reticle-br"></div>
+
+                <div class="placeholder-body">
+                  <div class="placeholder-icon-wrap">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                  </div>
+                  <div class="placeholder-label" data-i18n="aboutProfileLabel">[ADD IMAGE HERE]</div>
+                  <div class="placeholder-purpose" data-i18n="aboutProfilePurpose">Purpose: SAKHAWAT HOSAIN SHAKIB Profile Photo</div>
+                  <div class="placeholder-specs">
+                    <span class="spec-chip highlight">1000×1200px</span>
+                    <span class="spec-chip">5:6 Ratio</span>
+                    <span class="spec-chip">WebP Format</span>
+                    <span class="spec-chip">Portrait</span>
+                    <span class="spec-chip">Cinematic Lighting</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Profile Info Column -->
+            <div class="about-info-column">
+              <div class="section-badge" id="about-badge" data-i18n="aboutBadge">ক্রিয়েটিভ প্রোডিউসার</div>
+              <h2 class="about-heading" id="about-heading" data-i18n="aboutHeading">আমার সম্পর্কে</h2>
+              <div class="about-pretitle" id="about-subheading" data-i18n="aboutSubheading">AI-এর শক্তিতে সৃজনশীলতার নতুন দিগন্ত</div>
+
+              <p class="about-bio" id="about-bio-1" data-i18n="aboutBio1">
+                “আমি সাখাওয়াত হোসাইন শাকিব — একজন AI ভিডিও ক্রিয়েটর ও কনটেন্ট প্রোডিউসার। ভিডিও স্ক্রিপ্ট লেখা থেকে শুরু করে প্রম্পট তৈরি, অ্যানিমেশন, মিউজিক প্রোডাকশন আর ফটো এডিটিং — পুরো প্রসেসটা আমি একা হাতে সামলাই, যাতে আপনাকে একাধিক জায়গায় দৌড়াতে না হয়।
+              </p>
+              <p class="about-bio" id="about-bio-2" data-i18n="aboutBio2">
+                ছোট ব্যবসা থেকে হাসপাতাল, ডাক্তার থেকে ব্র্যান্ড — সবার জন্যই কাজ করেছি।”
+              </p>
+
+              <!-- Capability Highlights -->
+              <div class="about-highlights-grid">
+                <div class="highlight-box">
+                  <div class="highlight-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="highlight-title" data-i18n="highlight1Title">এন্ড-টু-এন্ড প্রোডাকশন</h3>
+                    <p class="highlight-desc" data-i18n="highlight1Desc">স্ক্রিপ্ট থেকে ফাইনাল ভিডিও ডেলিভারি পর্যন্ত একাই পুরো কাজ সামলাই।</p>
+                  </div>
+                </div>
+
+                <div class="highlight-box">
+                  <div class="highlight-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="highlight-title" data-i18n="highlight2Title">দ্রুত ও প্রিমিয়াম ডেলিভারি</h3>
+                    <p class="highlight-desc" data-i18n="highlight2Desc">AI ওয়ার্কফ্লো ব্যবহারের ফলে সময় ও খরচ সাশ্রয়ে সর্বোচ্চ কোয়ালিটি।</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           SERVICES SECTION (01 - 07)
+           =================================================================== -->
+      <section class="section services-section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-badge" data-i18n="servicesBadge">দক্ষতা ও সেবা</div>
+            <h2 class="section-title" id="services-heading" data-i18n="servicesHeading">আমার সার্ভিসসমূহ</h2>
+            <p class="section-subtitle" id="services-subheading" data-i18n="servicesSubheading">আধুনিক প্রযুক্তির সমন্বয়ে আপনার ব্র্যান্ডকে দিন এক অনন্য ভিজ্যুয়াল মাত্রা।</p>
+          </div>
+
+          <div class="services-grid">
+            <!-- 01: AI Video Production -->
+            <article class="service-card" id="service-card-1">
+              <div class="service-card-image">
+                <div class="media-placeholder-frame ratio-3-2">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                        <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                      </svg>
+                    </div>
+                    <div class="placeholder-label">[ADD IMAGE HERE — AI VIDEO PRODUCTION]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1200×800px</span>
+                      <span class="spec-chip">3:2</span>
+                      <span class="spec-chip">WebP</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="service-card-body">
+                <div class="service-card-header">
+                  <span class="service-index">01</span>
+                </div>
+                <h3 class="service-title" data-i18n="srv1Title">AI ভিডিও প্রোডাকশন</h3>
+                <p class="service-description" data-i18n="srv1Desc">“ব্র্যান্ড প্রমোশন, হাসপাতাল/ডাক্তার অ্যাড, প্রোডাক্ট ব্র্যান্ডিং ভিডিও — AI টুল দিয়ে দ্রুত ও প্রফেশনাল কোয়ালিটিতে তৈরি।”</p>
+                <div class="service-card-footer">
+                  <a href="#contact" class="service-action-link">
+                    <span data-i18n="viewDetails">ডিটেইলস দেখুন</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 02: Video Script & Prompt Writing -->
+            <article class="service-card" id="service-card-2">
+              <div class="service-card-image">
+                <div class="media-placeholder-frame ratio-3-2">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                      </svg>
+                    </div>
+                    <div class="placeholder-label">[ADD IMAGE HERE — SCRIPT & PROMPT]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1200×800px</span>
+                      <span class="spec-chip">3:2</span>
+                      <span class="spec-chip">WebP</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="service-card-body">
+                <div class="service-card-header">
+                  <span class="service-index">02</span>
+                </div>
+                <h3 class="service-title" data-i18n="srv2Title">ভিডিও স্ক্রিপ্ট ও প্রম্পট রাইটিং</h3>
+                <p class="service-description" data-i18n="srv2Desc">“আপনার আইডিয়াকে গোছানো স্ক্রিপ্ট আর কার্যকর AI প্রম্পটে রূপ দেওয়া হয়।”</p>
+                <div class="service-card-footer">
+                  <a href="#contact" class="service-action-link">
+                    <span data-i18n="viewDetails">ডিটেইলস দেখুন</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 03: 2D Animation Video -->
+            <article class="service-card" id="service-card-3">
+              <div class="service-card-image">
+                <div class="media-placeholder-frame ratio-3-2">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+                        <line x1="7" y1="2" x2="7" y2="22"></line>
+                        <line x1="17" y1="2" x2="17" y2="22"></line>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                      </svg>
+                    </div>
+                    <div class="placeholder-label">[ADD IMAGE HERE — 2D ANIMATION]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1200×800px</span>
+                      <span class="spec-chip">3:2</span>
+                      <span class="spec-chip">WebP</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="service-card-body">
+                <div class="service-card-header">
+                  <span class="service-index">03</span>
+                </div>
+                <h3 class="service-title" data-i18n="srv3Title">2D অ্যানিমেশন ভিডিও</h3>
+                <p class="service-description" data-i18n="srv3Desc">আকর্ষণীয় 2D অ্যানিমেটেড স্টোরিটেলিং ও সোশ্যাল মিডিয়া এক্সপ্লেনার ভিডিও তৈরি।</p>
+                <div class="service-card-footer">
+                  <a href="#contact" class="service-action-link">
+                    <span data-i18n="viewDetails">ডিটেইলস দেখুন</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 04: 3D Animation Video -->
+            <article class="service-card" id="service-card-4">
+              <div class="service-card-image">
+                <div class="media-placeholder-frame ratio-3-2">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                      </svg>
+                    </div>
+                    <div class="placeholder-label">[ADD IMAGE HERE — 3D PRODUCT ANIMATION]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1200×800px</span>
+                      <span class="spec-chip">3:2</span>
+                      <span class="spec-chip">WebP</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="service-card-body">
+                <div class="service-card-header">
+                  <span class="service-index">04</span>
+                </div>
+                <h3 class="service-title" data-i18n="srv4Title">3D অ্যানিমেশন ভিডিও</h3>
+                <p class="service-description" data-i18n="srv4Desc">হাইপার-রিয়ালিস্টিক 3D প্রোডাক্ট রেন্ডার এবং সিনেমাটিক ব্র্যান্ড শোকেস ভিডিও।</p>
+                <div class="service-card-footer">
+                  <a href="#contact" class="service-action-link">
+                    <span data-i18n="viewDetails">ডিটেইলস দেখুন</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 05: AI Automation -->
+            <article class="service-card" id="service-card-5">
+              <div class="service-card-image">
+                <div class="media-placeholder-frame ratio-3-2">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                      </svg>
+                    </div>
+                    <div class="placeholder-label">[ADD IMAGE HERE — AI AUTOMATION]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1200×800px</span>
+                      <span class="spec-chip">3:2</span>
+                      <span class="spec-chip">WebP</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="service-card-body">
+                <div class="service-card-header">
+                  <span class="service-index">05</span>
+                </div>
+                <h3 class="service-title" data-i18n="srv5Title">AI অটোমেশন</h3>
+                <p class="service-description" data-i18n="srv5Desc">কনটেন্ট তৈরি ও সোশ্যাল মিডিয়া পাইপলাইনে AI অটোমেশন ইন্টিগ্রেশন।</p>
+                <div class="service-card-footer">
+                  <a href="#contact" class="service-action-link">
+                    <span data-i18n="viewDetails">ডিটেইলস দেখুন</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 06: Music Production -->
+            <article class="service-card" id="service-card-6">
+              <div class="service-card-image">
+                <div class="media-placeholder-frame ratio-3-2">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 18V5l12-2v13"></path>
+                        <circle cx="6" cy="18" r="3"></circle>
+                        <circle cx="18" cy="16" r="3"></circle>
+                      </svg>
+                    </div>
+                    <div class="placeholder-label">[ADD IMAGE HERE — MUSIC PRODUCTION]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1200×800px</span>
+                      <span class="spec-chip">3:2</span>
+                      <span class="spec-chip">WebP</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="service-card-body">
+                <div class="service-card-header">
+                  <span class="service-index">06</span>
+                </div>
+                <h3 class="service-title" data-i18n="srv6Title">মিউজিক প্রোডাকশন</h3>
+                <p class="service-description" data-i18n="srv6Desc">ভিডিওর অনুভূতির সাথে নিখুঁতভাবে মেলানো সিনেমাটিক আবহ সঙ্গীত ও সাউন্ড ডিজাইন।</p>
+                <div class="service-card-footer">
+                  <a href="#contact" class="service-action-link">
+                    <span data-i18n="viewDetails">ডিটেইলস দেখুন</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 07: Photo Editing -->
+            <article class="service-card" id="service-card-7">
+              <div class="service-card-image">
+                <div class="media-placeholder-frame ratio-3-2">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                        <polyline points="21 15 16 10 5 21"></polyline>
+                      </svg>
+                    </div>
+                    <div class="placeholder-label">[ADD IMAGE HERE — PHOTO EDITING]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1200×800px</span>
+                      <span class="spec-chip">3:2</span>
+                      <span class="spec-chip">WebP</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="service-card-body">
+                <div class="service-card-header">
+                  <span class="service-index">07</span>
+                </div>
+                <h3 class="service-title" data-i18n="srv7Title">ফটো এডিটিং</h3>
+                <p class="service-description" data-i18n="srv7Desc">হাই-এন্ড প্রফেশনাল ফটো রিটাচিং, কালার গ্রেডিং ও ক্রিয়েটিভ আর্টওয়ার্ক কম্পোজিশন।</p>
+                <div class="service-card-footer">
+                  <a href="#contact" class="service-action-link">
+                    <span data-i18n="viewDetails">ডিটেইলস দেখুন</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           WHY WORK WITH ME SECTION
+           =================================================================== -->
+      <section class="section why-section" id="why">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-badge" data-i18n="whyBadge">শ্রেষ্ঠত্বের কারণ</div>
+            <h2 class="section-title" id="why-heading" data-i18n="whyHeading">কেন আমাকে বেছে নেবেন?</h2>
+            <p class="section-subtitle" id="why-subheading" data-i18n="whySubheading">শুধু টেকনোলজি নয়, গভীর সৃজনশীল দৃষ্টিভঙ্গিই আমার মূল শক্তি।</p>
+          </div>
+
+          <div class="why-grid">
+            <!-- 1. One Complete Solution -->
+            <div class="why-card" id="why-card-1">
+              <div class="why-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <h3 class="why-title" data-i18n="why1Title">এক জায়গায় সম্পূর্ণ সমাধান</h3>
+              <p class="why-desc" data-i18n="why1Desc">স্ক্রিপ্ট, ভিজ্যুয়াল, অ্যানিমেশন, ভয়েস ও মিউজিক — সব পাবেন একজন বিশ্বস্ত ক্রিয়েটরের কাছে।</p>
+            </div>
+
+            <!-- 2. AI-Powered Workflow -->
+            <div class="why-card" id="why-card-2">
+              <div class="why-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 14 14"></polyline>
+                </svg>
+              </div>
+              <h3 class="why-title" data-i18n="why2Title">AI-চালিত দ্রুত workflow</h3>
+              <p class="why-desc" data-i18n="why2Desc">লেটেস্ট জেনারেটিভ AI প্রযুক্তির ব্যবহারে ট্র্যাডিশনাল এজেন্সির চেয়ে ৫ গুণ দ্রুত ডেলিভারি।</p>
+            </div>
+
+            <!-- 3. Industry Experience -->
+            <div class="why-card" id="why-card-3">
+              <div class="why-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <h3 class="why-title" data-i18n="why3Title">বিভিন্ন ধরনের ক্লায়েন্টের অভিজ্ঞতা</h3>
+              <p class="why-desc" data-i18n="why3Desc">হাসপাতাল, মেডিকেল প্রফেশনাল, কর্পোরেট ব্র্যান্ড ও স্টার্টআপের জন্য সফল কাজ।</p>
+            </div>
+
+            <!-- 4. Direct Communication -->
+            <div class="why-card" id="why-card-4">
+              <div class="why-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </div>
+              <h3 class="why-title" data-i18n="why4Title">সরাসরি যোগাযোগ</h3>
+              <p class="why-desc" data-i18n="why4Desc">কোনো মিডলম্যান বা অ্যাকাউন্ট ম্যানেজার নেই; ক্রিয়েটরের সাথে সরাসরি নিবেদিত যোগাযোগ।</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           CREATIVE WORKFLOW SECTION
+           =================================================================== -->
+      <section class="section workflow-section" id="workflow">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-badge" data-i18n="workflowBadge">কাজের প্রক্রিয়া</div>
+            <h2 class="section-title" id="workflow-heading" data-i18n="workflowHeading">আইডিয়া থেকে ফাইনাল ভিডিও</h2>
+            <p class="section-subtitle" id="workflow-subheading" data-i18n="workflowSubheading">প্রতিটি ধাপে স্বচ্ছতা এবং নিখুঁত পারফেকশনের সমন্বয়।</p>
+          </div>
+
+          <div class="workflow-timeline">
+            <!-- Step 01 -->
+            <div class="workflow-step">
+              <div class="step-node">
+                <span class="step-num">01</span>
+              </div>
+              <h3 class="step-title" data-i18n="wfStep1">আইডিয়া</h3>
+              <p class="step-desc" data-i18n="wfDesc1">কনসেপ্ট ও ব্রিফ বিশ্লেষণ</p>
+            </div>
+
+            <!-- Step 02 -->
+            <div class="workflow-step">
+              <div class="step-node">
+                <span class="step-num">02</span>
+              </div>
+              <h3 class="step-title" data-i18n="wfStep2">স্ক্রিপ্ট</h3>
+              <p class="step-desc" data-i18n="wfDesc2">স্টোরিবোর্ড ও কনটেন্ট স্ট্রাকচার</p>
+            </div>
+
+            <!-- Step 03 -->
+            <div class="workflow-step">
+              <div class="step-node">
+                <span class="step-num">03</span>
+              </div>
+              <h3 class="step-title" data-i18n="wfStep3">AI প্রম্পট</h3>
+              <p class="step-desc" data-i18n="wfDesc3">অপটিমাইজড ভিজ্যুয়াল ডিরেকশন</p>
+            </div>
+
+            <!-- Step 04 -->
+            <div class="workflow-step">
+              <div class="step-node">
+                <span class="step-num">04</span>
+              </div>
+              <h3 class="step-title" data-i18n="wfStep4">প্রোডাকশন</h3>
+              <p class="step-desc" data-i18n="wfDesc4">ভিজ্যুয়াল জেনারেশন ও কম্পোজিশন</p>
+            </div>
+
+            <!-- Step 05 -->
+            <div class="workflow-step">
+              <div class="step-node">
+                <span class="step-num">05</span>
+              </div>
+              <h3 class="step-title" data-i18n="wfStep5">এডিটিং</h3>
+              <p class="step-desc" data-i18n="wfDesc5">কালার গ্রেডিং, সাউন্ড ও এফেক্টস</p>
+            </div>
+
+            <!-- Step 06 -->
+            <div class="workflow-step">
+              <div class="step-node">
+                <span class="step-num">06</span>
+              </div>
+              <h3 class="step-title" data-i18n="wfStep6">ফাইনাল ডেলিভারি</h3>
+              <p class="step-desc" data-i18n="wfDesc6">হাই-রেজোলিউশন মাস্টার রিলিজ</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           PORTFOLIO SECTION
+           =================================================================== -->
+      <section class="section portfolio-section" id="portfolio">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-badge" data-i18n="portfolioBadge">নির্বাচিত কাজ</div>
+            <h2 class="section-title" id="portfolio-heading" data-i18n="portfolioHeading">আমার কাজ</h2>
+            <p class="section-subtitle" id="portfolio-subtitle" data-i18n="portfolioSubtitle">আইডিয়াকে ভিজ্যুয়াল অভিজ্ঞতায় রূপ দেওয়া।</p>
+          </div>
+
+          <!-- Filter Categories Bar -->
+          <div class="portfolio-filter-bar">
+            <button type="button" class="filter-btn active" data-filter="all" data-i18n="filterAll">সব কাজ</button>
+            <button type="button" class="filter-btn" data-filter="hospital" data-i18n="filterHospital">Hospital Promo</button>
+            <button type="button" class="filter-btn" data-filter="brand" data-i18n="filterBrand">Brand Launch</button>
+            <button type="button" class="filter-btn" data-filter="2d" data-i18n="filter2D">2D Explainer</button>
+            <button type="button" class="filter-btn" data-filter="3d" data-i18n="filter3D">3D Showcase</button>
+            <button type="button" class="filter-btn" data-filter="ai-ad" data-i18n="filterAI">AI Advertisement</button>
+            <button type="button" class="filter-btn" data-filter="social" data-i18n="filterSocial">Social Media</button>
+            <button type="button" class="filter-btn" data-filter="music" data-i18n="filterMusic">Music Visual</button>
+            <button type="button" class="filter-btn" data-filter="campaign" data-i18n="filterCampaign">Creative Campaign</button>
+          </div>
+
+          <!-- Portfolio Grid (Pure Placeholders, No Fake Content) -->
+          <div class="portfolio-grid">
+            <!-- Project 1: Hospital Promo -->
+            <div class="portfolio-card" data-category="hospital">
+              <div class="portfolio-card-media">
+                <div class="media-placeholder-frame ratio-16-9">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    </div>
+                    <div class="placeholder-label">[ADD PORTFOLIO IMAGE/VIDEO HERE]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1920×1080px</span>
+                      <span class="spec-chip">16:9</span>
+                      <span class="spec-chip">WebP / MP4</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-card-body">
+                <div class="portfolio-category-tag">Hospital Promo</div>
+                <h3 class="portfolio-card-title">Advanced Healthcare Diagnostic Campaign</h3>
+                <p class="portfolio-card-meta">Cinematic Medical Storytelling • 4K AI Production</p>
+              </div>
+            </div>
+
+            <!-- Project 2: Brand Launch -->
+            <div class="portfolio-card" data-category="brand">
+              <div class="portfolio-card-media">
+                <div class="media-placeholder-frame ratio-16-9">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    </div>
+                    <div class="placeholder-label">[ADD PORTFOLIO IMAGE/VIDEO HERE]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1920×1080px</span>
+                      <span class="spec-chip">16:9</span>
+                      <span class="spec-chip">WebP / MP4</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-card-body">
+                <div class="portfolio-category-tag">Brand Launch</div>
+                <h3 class="portfolio-card-title">Next-Gen Electric Vehicle Concept</h3>
+                <p class="portfolio-card-meta">Commercial Film • Automotive Visual Synthesis</p>
+              </div>
+            </div>
+
+            <!-- Project 3: 2D Explainer -->
+            <div class="portfolio-card" data-category="2d">
+              <div class="portfolio-card-media">
+                <div class="media-placeholder-frame ratio-16-9">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    </div>
+                    <div class="placeholder-label">[ADD PORTFOLIO IMAGE/VIDEO HERE]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1920×1080px</span>
+                      <span class="spec-chip">16:9</span>
+                      <span class="spec-chip">WebP / MP4</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-card-body">
+                <div class="portfolio-category-tag">2D Explainer</div>
+                <h3 class="portfolio-card-title">Fintech Automated Banking Experience</h3>
+                <p class="portfolio-card-meta">Motion Design • Character Animation</p>
+              </div>
+            </div>
+
+            <!-- Project 4: 3D Product Showcase -->
+            <div class="portfolio-card" data-category="3d">
+              <div class="portfolio-card-media">
+                <div class="media-placeholder-frame ratio-16-9">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    </div>
+                    <div class="placeholder-label">[ADD PORTFOLIO IMAGE/VIDEO HERE]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1920×1080px</span>
+                      <span class="spec-chip">16:9</span>
+                      <span class="spec-chip">WebP / MP4</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-card-body">
+                <div class="portfolio-category-tag">3D Product Showcase</div>
+                <h3 class="portfolio-card-title">Chronograph Luxury Watch Showcase</h3>
+                <p class="portfolio-card-meta">Photorealistic 3D • Dynamic Light Reflections</p>
+              </div>
+            </div>
+
+            <!-- Project 5: AI Advertisement -->
+            <div class="portfolio-card" data-category="ai-ad">
+              <div class="portfolio-card-media">
+                <div class="media-placeholder-frame ratio-16-9">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    </div>
+                    <div class="placeholder-label">[ADD PORTFOLIO IMAGE/VIDEO HERE]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1920×1080px</span>
+                      <span class="spec-chip">16:9</span>
+                      <span class="spec-chip">WebP / MP4</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-card-body">
+                <div class="portfolio-category-tag">AI Advertisement</div>
+                <h3 class="portfolio-card-title">Beverage Brand Summer Campaign</h3>
+                <p class="portfolio-card-meta">Generative Motion • High Energy Color Grading</p>
+              </div>
+            </div>
+
+            <!-- Project 6: Social Media Content -->
+            <div class="portfolio-card" data-category="social">
+              <div class="portfolio-card-media">
+                <div class="media-placeholder-frame ratio-16-9">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    </div>
+                    <div class="placeholder-label">[ADD PORTFOLIO IMAGE/VIDEO HERE]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1920×1080px</span>
+                      <span class="spec-chip">16:9</span>
+                      <span class="spec-chip">WebP / MP4</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-card-body">
+                <div class="portfolio-category-tag">Social Media Content</div>
+                <h3 class="portfolio-card-title">Viral Micro-Content Video Package</h3>
+                <p class="portfolio-card-meta">Fast Pacing • Retention-Optimized Framing</p>
+              </div>
+            </div>
+
+            <!-- Project 7: Music Visual -->
+            <div class="portfolio-card" data-category="music">
+              <div class="portfolio-card-media">
+                <div class="media-placeholder-frame ratio-16-9">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    </div>
+                    <div class="placeholder-label">[ADD PORTFOLIO IMAGE/VIDEO HERE]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1920×1080px</span>
+                      <span class="spec-chip">16:9</span>
+                      <span class="spec-chip">WebP / MP4</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-card-body">
+                <div class="portfolio-category-tag">Music Visual</div>
+                <h3 class="portfolio-card-title">Cybernetic Odyssey Electronic Album</h3>
+                <p class="portfolio-card-meta">Audio-Reactive Synth Visuals • Ambient 4K</p>
+              </div>
+            </div>
+
+            <!-- Project 8: Creative Campaign -->
+            <div class="portfolio-card" data-category="campaign">
+              <div class="portfolio-card-media">
+                <div class="media-placeholder-frame ratio-16-9">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    </div>
+                    <div class="placeholder-label">[ADD PORTFOLIO IMAGE/VIDEO HERE]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1920×1080px</span>
+                      <span class="spec-chip">16:9</span>
+                      <span class="spec-chip">WebP / MP4</span>
+                      <span class="spec-chip">Landscape</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-card-body">
+                <div class="portfolio-category-tag">Creative Campaign</div>
+                <h3 class="portfolio-card-title">Sustainable Earth Global Initiative</h3>
+                <p class="portfolio-card-meta">Cinematic Impact Film • Cross-Platform Master</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           FEATURED PROJECT SECTION
+           =================================================================== -->
+      <section class="section featured-section" id="featured">
+        <div class="container">
+          <div class="featured-showcase-box">
+            <div class="featured-grid">
+              <!-- Video Placeholder Frame -->
+              <div class="featured-media-col">
+                <div class="media-placeholder-frame ratio-16-9">
+                  <div class="placeholder-grid-bg"></div>
+                  <div class="reticle-corner reticle-tl"></div>
+                  <div class="reticle-corner reticle-tr"></div>
+                  <div class="reticle-corner reticle-bl"></div>
+                  <div class="reticle-corner reticle-br"></div>
+
+                  <div class="placeholder-body">
+                    <div class="placeholder-icon-wrap">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                      </svg>
+                    </div>
+                    <div class="placeholder-label">[ADD FEATURED PROJECT VIDEO HERE]</div>
+                    <div class="placeholder-specs">
+                      <span class="spec-chip highlight">1920×1080px</span>
+                      <span class="spec-chip">16:9</span>
+                      <span class="spec-chip">MP4 / WebM</span>
+                      <span class="spec-chip">Landscape</span>
+                      <span class="spec-chip">Featured Master Film</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Details -->
+              <div class="featured-details">
+                <div class="featured-badge" data-i18n="featuredBadge">স্পটলাইট প্রজেক্ট</div>
+                <h2 class="featured-title" id="featured-heading" data-i18n="featuredHeading">একটি আইডিয়া থেকে অসাধারণ ভিজ্যুয়াল</h2>
+                <p class="featured-desc" id="featured-desc" data-i18n="featuredDesc">
+                  মেডিকেল ও হেলথকেয়ার সেক্টরে নতুন বিপ্লব সৃষ্টিকারী সিনেমাটিক এআই ক্যাম্পেইন। জটিল কনসেপ্টকে সাধারণ মানুষের কাছে সহজে ও বিশ্বাসযোগ্যভাবে উপস্থাপন।
+                </p>
+
+                <div class="featured-specs-list">
+                  <div class="spec-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span data-i18n="featuredSpec1">সম্পূর্ণ AI জেনারেটেড ভিডিও ওয়ার্কফ্লো</span>
+                  </div>
+                  <div class="spec-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span data-i18n="featuredSpec2">কাস্টম সিনেমাটিক সাউন্ড ডিজাইন ও মিউজিক</span>
+                  </div>
+                  <div class="spec-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span data-i18n="featuredSpec3">হাইপার-টার্গেটেড ব্র্যান্ড মেসেজিং</span>
+                  </div>
+                </div>
+
+                <div style="margin-top: 1rem;">
+                  <button type="button" class="btn btn-primary" id="featured-modal-trigger">
+                    <span data-i18n="btnViewProject">প্রজেক্ট দেখুন</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           TESTIMONIALS SECTION
+           Strict Mandate: No fake clients, clearly marked placeholders
+           =================================================================== -->
+      <section class="section testimonials-section" id="testimonials">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-badge" data-i18n="testimonialsBadge">ক্লায়েন্টদের অভিজ্ঞতা</div>
+            <h2 class="section-title" id="testimonials-heading" data-i18n="testimonialsHeading">ক্লায়েন্টদের মতামত</h2>
+            <p class="section-subtitle" id="testimonials-subheading" data-i18n="testimonialsSubheading">সন্তুষ্ট ক্লায়েন্টদের প্রত্যক্ষ অভিজ্ঞতা ও মূল্যায়ন।</p>
+          </div>
+
+          <div class="testimonials-grid">
+            <!-- Review 1 -->
+            <div class="testimonial-card">
+              <svg class="quote-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+              </svg>
+              <p class="testimonial-content" data-i18n="test1Text">
+                “[ADD CLIENT TESTIMONIAL HERE — সাখাওয়াত হোসাইন শাকিব আমাদের ব্র্যান্ডের জন্য যে সিনেমাটিক ভিডিও তৈরি করেছেন তা আমাদের প্রত্যাশার চেয়েও অনেক এগিয়ে ছিল।]”
+              </p>
+              <div class="testimonial-author-wrap">
+                <div class="author-avatar-placeholder">SH</div>
+                <div class="author-info">
+                  <div class="author-name" data-i18n="test1Name">[ADD CLIENT NAME HERE]</div>
+                  <div class="author-role" data-i18n="test1Role">[ADD CLIENT BUSINESS/ROLE HERE]</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="testimonial-card">
+              <svg class="quote-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+              </svg>
+              <p class="testimonial-content" data-i18n="test2Text">
+                “[ADD CLIENT TESTIMONIAL HERE — আমাদের হাসপাতালের সচেতনতামূলক ভিডিওর স্ক্রিপ্ট ও অ্যানিমেশন অত্যন্ত নিখুঁত ও হৃদয়গ্রাহী হয়েছে।]”
+              </p>
+              <div class="testimonial-author-wrap">
+                <div class="author-avatar-placeholder">MD</div>
+                <div class="author-info">
+                  <div class="author-name" data-i18n="test2Name">[ADD CLIENT NAME HERE]</div>
+                  <div class="author-role" data-i18n="test2Role">[ADD CLIENT BUSINESS/ROLE HERE]</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="testimonial-card">
+              <svg class="quote-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+              </svg>
+              <p class="testimonial-content" data-i18n="test3Text">
+                “[ADD CLIENT TESTIMONIAL HERE — অবিশ্বাস্য গতিতে প্রফেশনাল কোয়ালিটির 3D প্রোডাক্ট শোকেস ডেলিভারি পেয়েছি।]”
+              </p>
+              <div class="testimonial-author-wrap">
+                <div class="author-avatar-placeholder">CT</div>
+                <div class="author-info">
+                  <div class="author-name" data-i18n="test3Name">[ADD CLIENT NAME HERE]</div>
+                  <div class="author-role" data-i18n="test3Role">[ADD CLIENT BUSINESS/ROLE HERE]</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           CTA BANNER SECTION
+           =================================================================== -->
+      <section class="section cta-section">
+        <div class="container">
+          <div class="cta-box">
+            <h2 class="cta-title" id="cta-title" data-i18n="ctaTitle">
+              আপনার আইডিয়া আছে? সেটাকে অসাধারণ কিছুতে রূপ দিই।
+            </h2>
+            <div class="cta-buttons">
+              <a href="[ADD WHATSAPP LINK HERE]" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67Z"/>
+                </svg>
+                <span data-i18n="btnMsgWhatsApp">হোয়াটসঅ্যাপে মেসেজ করুন</span>
+              </a>
+
+              <a href="#contact" class="btn btn-primary">
+                <span data-i18n="btnStartProject">প্রজেক্ট শুরু করুন</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           CONTACT SECTION & INTERACTIVE FORM
+           =================================================================== -->
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-badge" data-i18n="contactBadge">যোগাযোগ</div>
+            <h2 class="section-title" id="contact-heading" data-i18n="contactHeading">যোগাযোগ করুন</h2>
+            <p class="section-subtitle" id="contact-subheading" data-i18n="contactSubheading">আপনার যেকোনো প্রশ্ন বা নতুন প্রজেক্টের ব্যাপারে কথা বলতে নির্দ্বিধায় মেসেজ দিন।</p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Studio Operator Info & Channels -->
+            <div class="contact-info-wrap">
+              <div class="contact-operator-card">
+                <div class="operator-badge" data-i18n="operatorBadge">অপারেটেড বাই</div>
+                <h3 class="operator-name">SAKHAWAT HOSAIN SHAKIB</h3>
+                <p class="operator-title" data-i18n="operatorTitle">AI ভিডিও ক্রিয়েটর ও কনটেন্ট প্রোডিউসার</p>
+              </div>
+
+              <!-- Official Direct Channels (All Placeholders) -->
+              <div class="contact-channels-list">
+                <!-- WhatsApp -->
+                <a href="[ADD WHATSAPP LINK HERE]" target="_blank" rel="noopener noreferrer" class="contact-channel-item" id="contact-whatsapp-channel">
+                  <div class="channel-icon" style="color: #1bd741;">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67Z"/>
+                    </svg>
+                  </div>
+                  <div class="channel-details">
+                    <span class="channel-label" data-i18n="channelWhatsApp">হোয়াটসঅ্যাপ</span>
+                    <span class="channel-value">[ADD WHATSAPP NUMBER HERE]</span>
+                  </div>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:[ADD EMAIL HERE]" class="contact-channel-item" id="contact-email-channel">
+                  <div class="channel-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="channel-details">
+                    <span class="channel-label" data-i18n="channelEmail">ইমেইল</span>
+                    <span class="channel-value">[ADD EMAIL HERE]</span>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Social Media Channels Row -->
+              <div>
+                <div class="operator-badge" style="margin-bottom: 0.75rem;" data-i18n="socialConnect">সোশ্যাল মিডিয়া চ্যানেলসমূহ</div>
+                <div class="social-links-row">
+                  <!-- Facebook -->
+                  <a href="[ADD FACEBOOK PAGE LINK HERE]" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook Page" id="social-fb">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                    </svg>
+                  </a>
+                  <!-- Instagram -->
+                  <a href="[ADD INSTAGRAM LINK HERE]" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram" id="social-ig">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                  </a>
+                  <!-- YouTube -->
+                  <a href="[ADD YOUTUBE LINK HERE]" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="YouTube Channel" id="social-yt">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                      <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#08090d"></polygon>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-card">
+              <form id="studio-contact-form" novalidate>
+                <div class="form-row">
+                  <!-- Name -->
+                  <div class="form-group">
+                    <label for="user_name" class="form-label" data-i18n="formNameLabel">আপনার নাম</label>
+                    <input type="text" id="user_name" class="form-input" required data-i18n-placeholder="formNamePlaceholder" placeholder="উদাঃ সাখাওয়াত হোসাইন" />
+                  </div>
+
+                  <!-- Email -->
+                  <div class="form-group">
+                    <label for="user_email" class="form-label" data-i18n="formEmailLabel">ইমেইল অ্যাড্রেস</label>
+                    <input type="email" id="user_email" class="form-input" required data-i18n-placeholder="formEmailPlaceholder" placeholder="name@company.com" />
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <!-- Phone -->
+                  <div class="form-group">
+                    <label for="user_phone" class="form-label" data-i18n="formPhoneLabel">ফোন নম্বর</label>
+                    <input type="tel" id="user_phone" class="form-input" data-i18n-placeholder="formPhonePlaceholder" placeholder="+880 1XXXXXXXXX" />
+                  </div>
+
+                  <!-- Select Service -->
+                  <div class="form-group">
+                    <label for="user_service" class="form-label" data-i18n="formServiceLabel">সার্ভিস নির্বাচন করুন</label>
+                    <select id="user_service" class="form-select">
+                      <option value="" disabled selected data-i18n="formServiceDefault">সার্ভিস সিলেক্ট করুন...</option>
+                      <option value="ai-video">AI Video Production</option>
+                      <option value="script-prompt">Video Script & Prompt Writing</option>
+                      <option value="2d-animation">2D Animation Video</option>
+                      <option value="3d-animation">3D Animation Video</option>
+                      <option value="ai-automation">AI Automation</option>
+                      <option value="music-production">Music Production</option>
+                      <option value="photo-editing">Photo Editing</option>
+                      <option value="hospital-promo">Hospital / Doctor Promo Campaign</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Budget Range Pills -->
+                <div class="form-group">
+                  <label class="form-label" data-i18n="formBudgetLabel">বাজেট রেঞ্জ (আনুমানিক)</label>
+                  <div class="budget-pills-row">
+                    <div class="budget-pill">
+                      <input type="radio" id="budget-1" name="budget_tier" value="starter" checked />
+                      <label for="budget-1">Starter Tier</label>
+                    </div>
+                    <div class="budget-pill">
+                      <input type="radio" id="budget-2" name="budget_tier" value="growth" />
+                      <label for="budget-2">Commercial</label>
+                    </div>
+                    <div class="budget-pill">
+                      <input type="radio" id="budget-3" name="budget_tier" value="enterprise" />
+                      <label for="budget-3">Enterprise</label>
+                    </div>
+                    <div class="budget-pill">
+                      <input type="radio" id="budget-4" name="budget_tier" value="custom" />
+                      <label for="budget-4">Custom</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Message -->
+                <div class="form-group">
+                  <label for="user_message" class="form-label" data-i18n="formProjectLabel">আপনার প্রজেক্ট সম্পর্কে লিখুন</label>
+                  <textarea id="user_message" class="form-textarea" required data-i18n-placeholder="formProjectPlaceholder" placeholder="আপনার আইডিয়ার বিস্তারিত, টাইমলাইন এবং প্রয়োজনীয় তথ্য লিখুন..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" id="form-submit-btn" style="width: 100%;">
+                  <span data-i18n="btnSendInquiry">মেসেজ পাঠান</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===================================================================
+         FOOTER & SOPHISTICATED DEVELOPER SIGNATURE
+         =================================================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top-grid">
+          <!-- Studio Brand Column -->
+          <div class="footer-brand-column">
+            <a href="#hero" class="brand-logo" aria-label="SHAKIB AI STUDIO Home">
+              <div class="logo-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                  <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                </svg>
+              </div>
+              <div class="brand-text">
+                <span class="brand-name">SHAKIB AI STUDIO</span>
+                <span class="brand-sub">OPERATED BY SAKHAWAT HOSAIN SHAKIB</span>
+              </div>
+            </a>
+            <p class="footer-tagline" id="footer-tagline" data-i18n="footerTagline">
+              আপনার আইডিয়া, AI-এর শক্তিতে ভিডিও। আন্তর্জাতিক মানের সিনেমাটিক ভিজ্যুয়াল প্রোডাকশন।
+            </p>
+          </div>
+
+          <!-- Navigation Shortcuts -->
+          <div>
+            <h4 class="footer-col-title" data-i18n="footerQuickLinks">দ্রুত লিঙ্ক</h4>
+            <ul class="footer-nav-list">
+              <li><a href="#hero" class="footer-nav-link" data-i18n="navHome">হোম</a></li>
+              <li><a href="#about" class="footer-nav-link" data-i18n="navAbout">আমার সম্পর্কে</a></li>
+              <li><a href="#services" class="footer-nav-link" data-i18n="navServices">সার্ভিস</a></li>
+              <li><a href="#portfolio" class="footer-nav-link" data-i18n="navPortfolio">পোর্টফোলিও</a></li>
+              <li><a href="#contact" class="footer-nav-link" data-i18n="navContact">যোগাযোগ</a></li>
+            </ul>
+          </div>
+
+          <!-- Direct Links -->
+          <div>
+            <h4 class="footer-col-title" data-i18n="footerContactInfo">স্টুডিও লিঙ্কস</h4>
+            <ul class="footer-nav-list">
+              <li><a href="[ADD WHATSAPP LINK HERE]" target="_blank" rel="noopener noreferrer" class="footer-nav-link">WhatsApp Direct</a></li>
+              <li><a href="mailto:[ADD EMAIL HERE]" class="footer-nav-link">Email Inquiry</a></li>
+              <li><a href="[ADD FACEBOOK PAGE LINK HERE]" target="_blank" rel="noopener noreferrer" class="footer-nav-link">Facebook Official</a></li>
+              <li><a href="[ADD YOUTUBE LINK HERE]" target="_blank" rel="noopener noreferrer" class="footer-nav-link">YouTube Showcase</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom-row">
+          <!-- Copyright -->
+          <div class="copyright-text" id="copyright-text" data-i18n="copyright">
+            © 2026 SHAKIB AI STUDIO — সর্বস্বত্ব সংরক্ষিত।
+          </div>
+
+          <!-- Premium Developer Signature (Sophisticated Agency Credit) -->
+          <div class="developer-credit-box" id="developer-credit">
+            <span class="dev-prefix" data-i18n="devPrefix">নিখুঁতভাবে তৈরি করেছেন</span>
+            <a href="[ADD DEVELOPER PORTFOLIO LINK HERE]" target="_blank" rel="noopener noreferrer" class="dev-name-link" title="Visit Developer Portfolio">
+              <span>MD MAHADI HASAN ABIR</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+            <span class="dev-badge-role" data-i18n="devRole">Web Developer</span>
+            <a href="https://api.whatsapp.com/send/?phone=8801609221481&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="dev-whatsapp-link" title="Contact Developer on WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67Z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Interactive Project Modal -->
+    <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true">
+      <div class="modal-card">
+        <button type="button" class="modal-close-btn" aria-label="Close dialog">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+        <div class="modal-content-area"></div>
+      </div>
+    </div>
+
+    <!-- Back to Top Floating Button -->
+    <button type="button" id="back-to-top" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="12" y1="19" x2="12" y2="5"></line>
+        <polyline points="5 12 12 5 19 12"></polyline>
+      </svg>
+    </button>
+
+    <!-- Pure Vanilla JavaScript Engine -->
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+

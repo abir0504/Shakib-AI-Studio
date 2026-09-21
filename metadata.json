@@ -1,0 +1,6 @@
+{
+  "name": "SHAKIB AI STUDIO",
+  "description": "SHAKIB AI STUDIO creates professional AI-powered videos, brand promotions, animations, advertisements, music and creative visual content.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
